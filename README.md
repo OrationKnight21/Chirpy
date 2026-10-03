@@ -36,3 +36,6 @@ git clone https://github.com/OrationKnight21/Chirpy.git
 cd chirpy
 go mod download
 
+## **Running server**
+```bash
+go run .
