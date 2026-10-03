@@ -35,7 +35,9 @@ Chirpy is a backend service built with Go. It provides an HTTP API for user acco
 git clone https://github.com/OrationKnight21/Chirpy.git
 cd chirpy
 go mod download
+```
 
 ## **Running server**
 ```bash
 go run .
+```
