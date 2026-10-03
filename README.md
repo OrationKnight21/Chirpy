@@ -37,7 +37,7 @@ cd chirpy
 go mod download
 ```
 
-## **Running server**
+### **Running server**
 ```bash
 go run .
 ```
