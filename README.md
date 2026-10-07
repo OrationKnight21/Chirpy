@@ -41,3 +41,33 @@ go mod download
 ```bash
 go run .
 ```
+The server will start on the configured port.
+
+## API EXAMPLES
+### Creating a user
+```bash
+curl -X POST http://localhost:8080/api/users \
+  -H "Content-Type: application/json" \
+  -d '{"email":"user@example.com","password":"password"}'
+```
+### Get Chirps
+```bash 
+curl http://localhost:8080/api/chirps
+```
+## Project Structure
+.
+├── main.go
+├── internal/
+├── migrations/
+├── sql/
+├── go.mod
+└── README.md
+
+## Testing 
+```bash
+go test ./...
+```
+## Future Improvements
+Add docker support
+Add rate limiting
+Add frontend client (hopefully)
