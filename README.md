@@ -69,6 +69,6 @@ curl http://localhost:8080/api/chirps
 go test ./...
 ```
 ## Future Improvements
-- [] Add docker support
-- [] Add rate limiting
-- [] Add frontend client (hopefully)
+- [ ] Add docker support
+- [ ] Add rate limiting
+- [ ] Add frontend client (hopefully)
