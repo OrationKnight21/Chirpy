@@ -55,6 +55,7 @@ curl -X POST http://localhost:8080/api/users \
 curl http://localhost:8080/api/chirps
 ```
 ## Project Structure
+```text
 .
 ├── main.go
 ├── internal/
@@ -62,7 +63,7 @@ curl http://localhost:8080/api/chirps
 ├── sql/
 ├── go.mod
 └── README.md
-
+```
 ## Testing 
 ```bash
 go test ./...
